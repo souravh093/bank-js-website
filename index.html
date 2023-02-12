@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaparBank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                inter: ['Inter', 'sans-serif']
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <header class="font-inter">
+        <h1 class="text-center text-5xl mt-10">Welcome To Bank BroBig <span class="text-violet-600 font-semibold">Safe Money</span></h1>
+    </header>
+    <main class="font-inter">
+        <section class="flex justify-center items-center mt-20">
+            <div action="" class="flex flex-col p-20 shadow-md shadow-blue-100 bg-white">
+                <h3 class="text-2xl mb-4 font-semibold">Sign in your account</h3>
+                <label for="email" class="text-lg">Your email</label>
+                <input type="email" id="email" name="email" class="block border border-gray-200 px-4 py-2 rounded-md outline-blue-600">
+                <label for="password" class="mt-4 text-lg">Password</label>
+                <input type="password" id="password" name="password" class="block border border-gray-200 px-4 py-2 rounded-md  outline-blue-600">
+                <button id="btnSubmit" type="submit" class="hover:bg-blue-600 transition-all mt-4 bg-blue-500 text-white p-3 rounded-md">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
