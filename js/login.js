@@ -10,10 +10,10 @@ document.getElementById("btnSubmit").addEventListener("click", function(){
 
     // DANGER: Don not verify email password on the client side
     // step 4: verify the email and password
-    if (email == 'souravh093@gmail.com' && password == "souravMa1998") {
-        window.location.href = '../bank.html';
+    if (email == 'souravh093@gmail.com' && password == "souravOfficial1998") {
+        window.location.href = './bank.html';
     }else {
-        alert("invalid email and password");
+        alert("invalid Input");
     }
 });
 
